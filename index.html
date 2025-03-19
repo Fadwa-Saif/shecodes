@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>;
+    <title>My weather application</title>
+  </head>
+  <body>
+    <div class="container">
+    <header>
+      <form>
+        <input type="search" class="search-inpt" placeholder="Enter a city.." required />
+        <input type="submit" class="submit-inpt" value="Search" />
+      </form>
+    </header>
+    <main>
+        <hr>
+      <div class="current-weather">
+        <div>
+          <h1>City</h1>
+          <p class="prgh">
+            <span  id="current-date"></span>, moderate rain <br />
+            Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+          </p>
+        </div>
+        <div class="degree"> 25</div> <span class="emoji2">ºC</span>
+      </div>
+    </main>
+    <footer>
+       <hr>
+      <p class="prgh2">
+        This project was coded by
+        <a href="#" target="_blank">Fadwa </a> and is
+        <a href="#" target="_blank"> on GitHub</a> and
+        <a href="#" target="_blank">hosted on Netlify</a>
+      </p>
+    </footer>
+    </div>
+      <script src="week2.js"></script>
+  </body>
+</html>
